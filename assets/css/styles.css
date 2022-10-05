@@ -1,7 +1,23 @@
 * {
 	padding:0;
 	margin:0;
+	text-align: center;
 }
 html {
 	background:rgba(0,0,0,1);
+	height:100vh;
+	width:100vw;
+}
+body {
+	height:100%;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	gap: 25px;
+	flex-direction: column;
+}
+h1, h2, h3, h4, h5, h6, p, span, li {
+	color:#fff;
 }
